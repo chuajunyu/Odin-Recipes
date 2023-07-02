@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     color: navy;
     background-color: burlywood;
@@ -6,9 +10,15 @@ h1 {
 
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.list {
+    list-style: none;
 }
 
 .beige {
@@ -18,3 +28,42 @@ h1 {
 .larger {    
     font-size: larger;
 }
+
+.inlineblock {
+    display: inline-block
+}
+
+a {
+    display: inline-block;
+    background: burlywood;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+a:hover {
+    background-color: darkorange
+}
+
+.infocard {
+    text-align: center;
+}
+
+.ingredients {
+    background-color: rgb(231, 182, 118);
+    padding: 10px;
+    padding-right: 5px;
+    vertical-align: top;
+    width: 15%;
+    margin: 20px;
+    text-align: left;
+}
+
+.steps {
+    background-color: rgb(231, 182, 118);
+    width: 65%;
+    padding: 10px;
+    margin: 20px;
+    text-align: left;
+}
+
